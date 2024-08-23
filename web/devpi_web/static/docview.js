@@ -30,9 +30,10 @@ function onIFrameLoad(event) {
         });
 
     $docHtml.css('height', 'auto');
-    $docHtml.css('overflow-y', 'hidden');
+    // $docHtml.css('overflow-y', 'hidden');
     $docBody.css('height', 'auto');
-    $docBody.css('overflow-y', 'hidden');
+    // $docBody.css('overflow-y', 'hidden');
+
     // make keyboard actions affect the actual documentation
     // in the iframe by default
     iframe.contentWindow.focus();

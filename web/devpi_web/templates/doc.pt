@@ -20,7 +20,7 @@
             <iframe
                 id="devpi-doc"
                 src="${url}" data-base_url="${base_url}" data-baseview_url="${baseview_url}"
-                scrolling="no">
+                scrolling="yes">
             </iframe>
         </div>
         <metal:footer use-macro="request.macros['footer']" />
